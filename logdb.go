@@ -87,7 +87,7 @@ func cmd(r io.Reader, w io.Writer) (err error) {
 			b, err = json.Marshal(ret)
 		}
 		if len(b) > 0 {
-			_, err = w.Write([]byte("\t" + cmdOk + " "))
+			_, err = w.Write([]byte(cmdOk + " "))
 			_, err = w.Write(b)
 			_, err = w.Write([]byte("\n"))
 		}
