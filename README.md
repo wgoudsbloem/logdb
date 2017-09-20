@@ -1,4 +1,4 @@
-https://travis-ci.org/wgoudsbloem/logdb.svg?branch=master
+[![Build Status](https://travis-ci.org/wgoudsbloem/logdb.svg?branch=master)](https://travis-ci.org/wgoudsbloem/logdb)
 
 This is a command line application.
 
