@@ -14,7 +14,7 @@ goudsbloem@goudsbloem-MS-7597 ~/go/src/sample $ ./logdb
 welcome to logDB
 
 > add an entry:                   put={"key":"<entry name>","value":<integer value>}`  
-> get an sum of the values:       get{"key":"<entry name>", "value":"sum"}  
+> get the sum of the values:      get{"key":"<entry name>", "value":"sum"}  
 > get the last entry value:       get{"key":"<entry name>", "value":"last"}  
 
 > put={"key":"mydb","value":123}  
