@@ -134,6 +134,7 @@ func get(key string, fn act) (i int, err error) {
 	if err != nil {
 		return
 	}
+	defer f.Close()
 	i, err = fn(f)
 	return
 }
