@@ -2,7 +2,7 @@
 
 This is a command line application.
 
-This application maintains no state, everytime a view is request by the get command it 
+This application maintains no state, every time a view is requested by the get command it 
  rebuilds the view with the state from the file.
 
 to run the application from a linux machine simple execute the binary, or install go on your machine and execute go run logdb.go
